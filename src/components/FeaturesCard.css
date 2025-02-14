@@ -1,0 +1,21 @@
+.features-card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 60%;
+    min-width: 13rem;
+  }
+  
+  .features-card .card-icon {
+    font-size: 2em;
+  }
+
+  .features-card h2 {
+    color: rgb(155, 169, 180);
+  }
+
+  .features-card p {
+    color: rgb(155, 169, 180);
+  }

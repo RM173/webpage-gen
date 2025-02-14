@@ -1,0 +1,86 @@
+.modal-background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.modal {
+	background-color: white;
+	padding: 2rem;
+	border-radius: 5px;
+	width: 80%;
+	max-width: 400px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	position: relative;
+	overflow: auto;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+.close-btn {
+	position: absolute;
+	top: 0rem;
+	right: 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	width: 1.8rem;
+	height: 1.8rem;
+	line-height: 0.9rem;
+	text-align: center;
+	background-color: #eee;
+	border-radius: 50%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 1rem;
+	color: black;
+	text-align: left;
+}
+
+input {
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	margin-top: 1rem;
+	background-color: #007bff;
+	border: none;
+	color: white;
+	padding: 0.5rem;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+h2 {
+	color: black;
+}
+
+.button-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1rem;
+}
+
+button[type="submit"] {
+	width: 48%;
+}

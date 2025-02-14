@@ -1,0 +1,13 @@
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+  }
+
+  @media (max-width: 768px) {
+    .features {
+      width: 98%;
+    }
+  }

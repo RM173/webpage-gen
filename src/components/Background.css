@@ -1,0 +1,7 @@
+.background {
+    background-color: rgb(13, 0, 19); /* Dark purple color */
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    position: fixed;
+}

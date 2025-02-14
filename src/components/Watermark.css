@@ -1,0 +1,41 @@
+.watermark-div {
+    position: relative;
+    max-width: 72rem; /* Tailwind's 6xl equals to 72rem */
+    margin-left: auto;
+    margin-right: auto;
+    height: 0;
+    pointer-events: none;
+    z-index: -1;
+    
+}
+
+.watermark-svg {
+    position: absolute;
+    /* overflow: hidden; */
+    width: 100%;
+    top: 0;
+    right: 0;
+    transform: translateX(50%); /* translate-x-1/2 in Tailwind CSS equals to 50% in standard CSS */
+    margin-right: -4rem; /* -mr-16 in Tailwind CSS equals to -4rem in standard CSS */
+    z-index: -1;
+}
+
+/* Adjust for medium screens */
+@media (max-width: 1024px) {
+    .watermark-svg {
+      transform: translateX(30%); /* Example: reducing translation */
+      margin-right: -2rem; /* Example: reducing right margin */
+    }
+  }
+  
+  /* Adjust for small screens */
+  @media (max-width: 768px) {
+    .watermark-svg {
+      transform: translateX(10%); /* Example: further reducing translation */
+      margin-right: -1rem; /* Example: further reducing right margin */
+    }
+  }
+
+
+
+

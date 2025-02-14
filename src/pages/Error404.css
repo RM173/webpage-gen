@@ -1,0 +1,8 @@
+.error-page {
+    font-size: larger;
+    color: white;
+}
+
+.error-page h2 {
+    color: inherit;
+}
